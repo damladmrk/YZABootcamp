@@ -11,9 +11,9 @@
   | Name              | Title           | Communication |
   |-------------------|------------------|---------|
   |  | Scrum Master   |         |
-  |          | Product Owner |         |
-  |     | Developer     |         |
-  |        | Developer     |         |
+  |  | Product Owner |         |
+  |  | Developer     |         |
+  |  | Developer     |         |
  
 
 
@@ -56,19 +56,28 @@
   <summary><strong>📅 Sprints</strong></summary>
 
   ### Sprint 1
-  - Goal:
-  - Tasks:
-  - Outcome:
+  - Notes:
+  - Total Points/How we decide:
+  - Daily Scrum:
+  - Board Updates:
+  - Review:
+  <summary> > Screenshots:<summary>
 
   ### Sprint 2
-  - Goal:
-  - Tasks:
-  - Outcome:
+  - Notes:
+  - Total Points/How we decide:
+  - Daily Scrum:
+  - Board Updates:
+  - Review:
+  <summary> > Screenshots:<summary>
 
   ### Sprint 3
-  - Goal:
-  - Tasks:
-  - Outcome:
+  - Notes:
+  - Total Points/How we decide:
+  - Daily Scrum:
+  - Board Updates:
+  - Review:
+  <summary> > Screenshots:<summary>
 
 </details>
 
