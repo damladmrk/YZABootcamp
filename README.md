@@ -76,32 +76,51 @@ The product is built to support new tests, models, and languages, allowing for f
 
 ---
 
+### 🚀 Sprint 1
+
+#### 📝 Notes:
+- Team name, member roles, and project name were finalized.  
+- GitHub repository was created with a structured folder setup.  
+- Product mission, vision, and core values were written.  
+- The color palette and font selection process started; a draft version was decided.
+- First front-end of the site built.
+- Figma-based logos were prepared.  
+- A user flow diagram (from test input to result report) was created on draw.io.  
+- Initial logo concept was developed.      
+- Sprint 1 report was written and finalized.  
+
+#### 🎯 Total Points / How We Decide:
+- **Target:** 90 points  
+- **Completed:** 90 points  
+- Points are distributed based on task complexity and estimated effort.  
+- Sprint 1 target is lower due to the initialization part of the project.
+
+#### 🔄 Daily Scrum:
+- Conducted daily with the messages and weekly voice calls. 
+
+ 
+- 🚧 **In Progress:**
+  - Website development  
+  - Data cleaning  
+- ⏭️ **Upcoming:**
+  - Model architecture setup  
+  - Form structure & JSON transformation  
+  - Answer-to-score algorithm
+
+#### 🔍 Review:
+- The team exceeded point expectations.  
+- Strong collaboration was observed during UI and flow planning.  
+- Decision processes for design (color/logo) took more time than expected.  
+- Clear direction was set for Sprint 2 deliverables.
+
 <details>
-  <summary><strong>📅 Sprints</strong></summary>
+  <summary>📸 Screenshots & Files</summary>
 
-  ### Sprint 1
-  - Notes:
-  - Total Points/How we decide:
-  - Daily Scrum:
-  - Board Updates:
-  - Review:
-  <summary> > Screenshots:<summary>
+   
+  
 
-  ### Sprint 2
-  - Notes:
-  - Total Points/How we decide:
-  - Daily Scrum:
-  - Board Updates:
-  - Review:
-  <summary> > Screenshots:<summary>
-
-  ### Sprint 3
-  - Notes:
-  - Total Points/How we decide:
-  - Daily Scrum:
-  - Board Updates:
-  - Review:
-  <summary> > Screenshots:<summary>
+</details>
+ 
 
 </details>
 
