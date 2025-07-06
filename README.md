@@ -115,15 +115,14 @@ The product is built to support new tests, models, and languages, allowing for f
 
 <details>
   <summary>📸 Screenshots & Files</summary>
-  - Project Charter ![Project charter](images/sprint1/YZA - Bootcamp_Project Charter.pdf)
-  - User Flow ![Flow](images/sprint1/cognitia_flow.drawio.pdf)
-  - Project Plan![Project Plan](images/sprint1/sprint1_projectplan.png)
-  
 
-   
-  
+- [Project Charter (PDF)](images/sprint1/YZA%20-%20Bootcamp_Project%20Charter.pdf)
+- [User Flow (drawio)](images/sprint1/cognitia_flow.drawio.pdf)
+- [Project Plan (PNG)](images/sprint1/sprint1_projectplan.png)
 
 </details>
+
+
  
 
 </details>
