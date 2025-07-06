@@ -1,5 +1,5 @@
 # Cognitia
-![Logo](photographs/logo.png)
+![Logo](logo.png)
 
 
 <details>
