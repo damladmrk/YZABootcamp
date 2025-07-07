@@ -122,12 +122,43 @@ The product is built to support new tests, models, and languages, allowing for f
 
 </details>
 
-
- 
-
 </details>
 
 ---
+
+### 🚀 Sprint 2
+
+#### 📝 Notes:
+- Landing page has been starting to initialize.  
+- Classification data selected from [Harvard's public dataset](https://dataverse.harvard.edu/file.xhtml?fileId=7440350&version=1.1)
+
+
+#### 🎯 Total Points / How We Decide:
+- **Target:**  
+- **Completed:**  
+
+#### 🔄 Daily Scrum:
+-  
+
+#### 📋 Board Updates:
+- ✅ **Completed:**
+  -  
+- 🚧 **In Progress:**
+  -  
+- ⏭️ **Upcoming:**
+  -  
+
+#### 🔍 Review:
+-  
+
+<details>
+  <summary>📸 Screenshots & Files</summary>
+
+- 
+
+</details>
+
+</details>
 
 ## 📎 License
 
