@@ -108,7 +108,7 @@ The product is built to support new tests, models, and languages, allowing for f
   - Answer-to-score algorithm
 
 #### 🔍 Review:
-- The team exceeded point expectations.  
+- The team compleated point expectations.  
 - Strong collaboration was observed during UI and flow planning.  
 - Decision processes for design (color/logo) took more time than expected.  
 - Clear direction was set for Sprint 2 deliverables.
@@ -131,6 +131,7 @@ The product is built to support new tests, models, and languages, allowing for f
 #### 📝 Notes:
 - Landing page has been starting to initialize.  
 - Classification data selected from [Harvard's public dataset](https://dataverse.harvard.edu/file.xhtml?fileId=7440350&version=1.1)
+- Data analysis and encoding is done using [Google Colab](https://colab.research.google.com/drive/1BTZX11qrY4josVxjID8QFkFvOXPcXtzf?usp=sharing)
 
 
 #### 🎯 Total Points / How We Decide:
@@ -138,17 +139,18 @@ The product is built to support new tests, models, and languages, allowing for f
 - **Completed:**  
 
 #### 🔄 Daily Scrum:
--  
+- Conducted daily with the messages and weekly voice calls. 
 
-#### 📋 Board Updates:
-- ✅ **Completed:**
-  -  
+ 
 - 🚧 **In Progress:**
-  -  
+  - Website development  
+  - Data cleaning  
 - ⏭️ **Upcoming:**
-  -  
+  - Model architecture setup  
+  - Form structure & JSON transformation  
+  - Answer-to-score algorithm
 
-#### 🔍 Review:
+#### 🔍 Retrospective:
 -  
 
 <details>
