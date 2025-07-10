@@ -132,26 +132,28 @@ The product is built to support new tests, models, and languages, allowing for f
 - Landing page has been starting to initialize.  
 - Classification data selected from [Harvard's public dataset](https://dataverse.harvard.edu/file.xhtml?fileId=7440350&version=1.1)
 - Data analysis and encoding is done using [Google Colab](https://colab.research.google.com/drive/1BTZX11qrY4josVxjID8QFkFvOXPcXtzf?usp=sharing)
+- Questions are decided respect to other clinical questionnaires(in terms of questions, length etc.)
 
 
 #### 🎯 Total Points / How We Decide:
-- **Target:**  
+- **Target:**  160 Points
 - **Completed:**  
 
 #### 🔄 Daily Scrum:
-- Conducted daily with the messages and weekly voice calls. 
+- Conducted daily with the messages and weekly voice calls.
+- Plus we connected in our sheets' comment sections.
 
  
 - 🚧 **In Progress:**
-  - Website development  
-  - Data cleaning  
+  -   
 - ⏭️ **Upcoming:**
-  - Model architecture setup  
-  - Form structure & JSON transformation  
-  - Answer-to-score algorithm
+  - 
 
 #### 🔍 Retrospective:
--  
+-  What went well?
+-  What didn’t go well?
+-  What can we improve?
+-  What should we change next time? 
 
 <details>
   <summary>📸 Screenshots & Files</summary>
