@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikolojik Test - Teste Başla</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.svg" alt="Psikolojik Test Logo" class="logo">
+                <span class="brand-text">Psikolojik Test</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Ana Sayfa</a>
+                <a href="developers.html" class="nav-link">Geliştiriciler</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Test Container -->
+    <div class="test-container">
+        <!-- Progress Bar -->
+        <div class="test-progress">
+            <div class="test-progress-bar" style="width: 0%"></div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-card">
+            <div class="question-title">Soru 1</div>
+            <div class="question-text">Test sorusu burada görünecek...</div>
+            <div class="answer-options">
+                <!-- Options will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="test-navigation">
+            <button class="btn btn-secondary btn-prev" onclick="previousQuestion()" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                Önceki Soru
+            </button>
+            
+            <div class="question-counter">Soru 1 / 10</div>
+            
+            <button class="btn btn-primary btn-next" onclick="nextQuestion()" disabled style="opacity: 0.5;">
+                Sonraki Soru
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Test Instructions Modal -->
+    <div class="modal" id="instructionsModal" style="display: none;">
+        <div class="modal-content">
+            <h2>Test Talimatları</h2>
+            <ul>
+                <li>Her soruyu dikkatlice okuyun</li>
+                <li>Size en uygun seçeneği işaretleyin</li>
+                <li>Dürüst ve samimi yanıtlar verin</li>
+                <li>Test yaklaşık 5-7 dakika sürer</li>
+                <li>Tüm sorular cevaplanmalıdır</li>
+            </ul>
+            <div class="modal-buttons">
+                <button class="btn btn-primary" onclick="closeModal()">Anladım, Başla</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

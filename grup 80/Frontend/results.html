@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Sonuçları - Psikolojik Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.svg" alt="Psikolojik Test Logo" class="logo">
+                <span class="brand-text">Psikolojik Test</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Ana Sayfa</a>
+                <a href="developers.html" class="nav-link">Geliştiriciler</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Results Container -->
+    <div class="results-container">
+        <!-- Results Header -->
+        <div class="results-header">
+            <h1 class="results-title">Test Sonuçlarınız</h1>
+            <p class="results-subtitle">AI destekli analiz ile hazırlanmış kişisel raporunuz</p>
+        </div>
+
+        <!-- Results Summary -->
+        <div class="results-summary">
+            <div class="score-display">
+                <!-- Score circle will be populated by JavaScript -->
+            </div>
+            
+            <div class="score-interpretation">
+                <!-- Interpretation will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- AI Analysis Section -->
+        <div class="ai-analysis">
+            <h3>AI Destekli Detaylı Analiz</h3>
+            <p>AI analizi yükleniyor...</p>
+        </div>
+
+        <!-- Recommendations -->
+        <div class="recommendations">
+            <h3>Kişiselleştirilmiş Öneriler</h3>
+            <ul>
+                <!-- Recommendations will be populated by JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Category Breakdown -->
+        <div class="category-breakdown">
+            <h3>Kategori Bazlı Analiz</h3>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h4>Genel Ruh Hali</h4>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 75%"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h4>Uyku Kalitesi</h4>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 60%"></div>
+                        </div>
+                        <span>60%</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>Stres Düzeyi</h4>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 45%"></div>
+                        </div>
+                        <span>45%</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Sosyal Bağlantılar</h4>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 80%"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Help Notice -->
+        <div class="professional-notice">
+            <div class="notice-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="notice-content">
+                <h4>Önemli Uyarı</h4>
+                <p>Bu test sonuçları sadece bilgilendirme amaçlıdır ve tıbbi tanı yerine geçmez. Ciddi ruhsal sağlık sorunları yaşıyorsanız, lütfen bir ruh sağlığı uzmanı ile görüşün.</p>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="results-actions">
+            <button class="btn btn-primary" onclick="shareResults()">
+                <i class="fas fa-share-alt"></i>
+                Sonuçları Paylaş
+            </button>
+            <button class="btn btn-secondary" onclick="restartTest()">
+                <i class="fas fa-redo"></i>
+                Testi Yeniden Başlat
+            </button>
+            <button class="btn btn-outline" onclick="window.print()">
+                <i class="fas fa-print"></i>
+                Raporu Yazdır
+            </button>
+        </div>
+
+        <!-- Additional Resources -->
+        <div class="additional-resources">
+            <h3>Ek Kaynaklar</h3>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <i class="fas fa-book"></i>
+                    <h4>Ruh Sağlığı Rehberi</h4>
+                    <p>Ruh sağlığı hakkında kapsamlı bilgiler</p>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Acil Yardım Hatları</h4>
+                    <p>7/24 destek alabileceğiniz hatlar</p>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Uzman Bulma</h4>
+                    <p>Yakınınızdaki uzmanları bulun</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
