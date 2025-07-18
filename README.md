@@ -13,9 +13,7 @@
   | Name              | Title           | Communication |
   |-------------------|------------------|---------|
   | Damla Demirok  | Scrum Master   |         |
-  |  | Product Owner |         |
   | Hamza Tulmaç | Developer     |         |
-  |  | Developer     |         |
  
 
 
@@ -120,8 +118,66 @@ The product is built to support new tests, models, and languages, allowing for f
 - [User Flow (drawio)](images/sprint1/cognitia_flow.drawio.pdf)
 - [Project Plan (PNG)](images/sprint1/sprint1_projectplan.png)
 
+  
+---
 </details>
 
+
+### 🚀 Sprint 2
+
+#### 📝 Notes:
+- The dataset was finalized and uploaded to the GitHub repository to ensure version control and accessibility.
+- Initial data cleaning processes were performed to ensure consistency and accuracy.
+- Frontend requirements were defined and finalized based on the user interface needs.
+- Website codes uploaded to github REPO
+- A psychology-based test consisting of 20 questions was created, targeting 19 specific psychological traits.
+- An algorithm was developed to convert test responses into structured numerical values to send main algorithm.
+- The test form was designed with user experience and accessibility in mind.
+- Test responses were formatted into a standardized JSON data structure for API integration.
+- The Sprint 2 report was written and finalized.  
+
+#### 🎯 Total Points 
+- **Target:** 140 points  
+- **Completed:** 150 points  
+- Since sprint 2 compleated early to the expectation, ethical statement compleated.
+
+#### 🔄 Daily Scrum:
+- Conducted daily with the messages and weekly voice calls.
+- For the website feedback meetings scheduled.
+
+ 
+- 🚧 **In Progress:**
+  - Main ML algorithm.
+  - User test cases.  
+- ⏭️ **Upcoming:**
+  - Results page (visual and textual feedback)
+  - LLM-based AI explanation output finalization
+  - Presentation video 
+
+#### 🔍 Sprint 2 Retrospective
+
+- ####  ✅ What Went Well
+- The dataset was created and cleaned earlier than planned.  
+- Question-to-score mapping logic was clearly defined and implemented successfully.    
+- The psychological test structure and its transformation into form elements were implemented.  
+
+- #### ❌ What Could Be Improved
+- Report and documentation time estimates were slightly optimistic.  
+- Main ML algorithm might be started early.  
+
+- #### 🔁 What Should Change Next Time
+- Mid-sprint checkpoints should be added for critical tasks.  
+- Establish a clearer testing framework earlier in the sprint cycle.  
+
+<details>
+  <summary>📸 Screenshots & Files</summary>
+
+- [Data Cleaning and Convertion Algorithm]((https://colab.research.google.com/drive/1BTZX11qrY4josVxjID8QFkFvOXPcXtzf?usp=sharing))
+- [Project Plan (PNG)](images/sprint2/sprint2_projectplan.png)
+- [Ethical Statement] (https://docs.google.com/document/d/1Bh-4gYXUC1pPVznx-Ngl7EjBePhMJgEgUgTbrUgjbGw/edit?tab=t.9kxiawrrc358)
+
+
+</details>
 
  
 
