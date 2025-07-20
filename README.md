@@ -13,10 +13,7 @@
   | Name              | Title           | Communication |
   |-------------------|------------------|---------|
   | Damla Demirok  | Scrum Master   |         |
-  |  | Product Owner |         |
   | Hamza Tulmaç | Developer     |         |
-  |  | Developer     |         |
- 
 
 
 </details>
@@ -135,9 +132,10 @@ The product is built to support new tests, models, and languages, allowing for f
 - Questions are decided respect to other clinical questionnaires(in terms of questions, length etc.)
 
 
-#### 🎯 Total Points / How We Decide:
-- **Target:**  160 Points
-- **Completed:**  
+#### 🎯 Total Points:
+- **Target:**  140 Points
+- **Completed:**  150 Points
+- Sprint 2 ended early so as extra we prepared the [Ethical Statement] (https://docs.google.com/document/d/1Bh-4gYXUC1pPVznx Ngl7EjBePhMJgEgUgTbrUgjbGw/edit?tab=t.9kxiawrrc358)
 
 #### 🔄 Daily Scrum:
 - Conducted daily with the messages and weekly voice calls.
@@ -150,15 +148,22 @@ The product is built to support new tests, models, and languages, allowing for f
   - 
 
 #### 🔍 Retrospective:
--  What went well?
--  What didn’t go well?
--  What can we improve?
--  What should we change next time? 
+-  **What went well?**
+-  The team successfully created and cleaned the dataset ahead of schedule.
+-  Question mapping logic was discussed clearly and applied effectively.
+-  Task ownership was well distributed and completed collaboratively.
+-  Psychological test design and form conversion worked seamlessly.
+-  **What didn’t go well?**
+-  Due to communication problems, frontend preview delayed
+-  **What can we improve?**
+-  Time estimation for the video and main ML was slightly underestimated.
+-  **What should we change next time?**
+-  For the meetings we can make our meetings more frequently
 
 <details>
   <summary>📸 Screenshots & Files</summary>
-
-- 
+  
+- [Project Plan and points](images/sprint2/sprint2_projectplan.png)
 
 </details>
 
