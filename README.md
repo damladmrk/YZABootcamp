@@ -135,7 +135,7 @@ The product is built to support new tests, models, and languages, allowing for f
 #### 🎯 Total Points:
 - **Target:**  140 Points
 - **Completed:**  150 Points
-- Sprint 2 ended early so as extra we prepared the [Ethical Statement] (https://docs.google.com/document/d/1Bh-4gYXUC1pPVznx Ngl7EjBePhMJgEgUgTbrUgjbGw/edit?tab=t.9kxiawrrc358)
+- Sprint 2 ended early so as extra we prepared the [Ethical Statement](https://docs.google.com/document/d/1Bh-4gYXUC1pPVznx-Ngl7EjBePhMJgEgUgTbrUgjbGw/edit?usp=sharing)
 
 #### 🔄 Daily Scrum:
 - Conducted daily with the messages and weekly voice calls.
@@ -169,7 +169,7 @@ The product is built to support new tests, models, and languages, allowing for f
 <details>
   <summary>📸 Screenshots & Files</summary>
   
-- [Project Plan and points](images/sprint2/sprint2_projectplan.png)
+- [Project Plan and Points](images/sprint2/sprint2_projectplan.png)
 
 </details>
 
