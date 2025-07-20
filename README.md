@@ -143,22 +143,28 @@ The product is built to support new tests, models, and languages, allowing for f
 
  
 - 🚧 **In Progress:**
-  -   
+  - Basic XGBoost model setup (classification logic)
+  - Data cleaning script finalization
 - ⏭️ **Upcoming:**
-  - 
+  - Evaluation of test results using XGBoost predictions
+  - Integration of backend with form logic
+  - Finalization of frontend interface
+  - Uploading **cleaned** dataset and code to GitHub
+  - Preparing user test scenario & presentation video
+  - Feature importance visualization for model
 
 #### 🔍 Retrospective:
 -  **What went well?**
--  The team successfully created and cleaned the dataset ahead of schedule.
--  Question mapping logic was discussed clearly and applied effectively.
--  Task ownership was well distributed and completed collaboratively.
--  Psychological test design and form conversion worked seamlessly.
+  -  The team successfully created and cleaned the dataset ahead of schedule.
+  -  Question mapping logic was discussed clearly and applied effectively.
+  -  Task ownership was well distributed and completed collaboratively.
+  -  Psychological test design and form conversion worked seamlessly.
 -  **What didn’t go well?**
--  Due to communication problems, frontend preview delayed
+  -  Due to communication problems, frontend preview delayed
 -  **What can we improve?**
--  Time estimation for the video and main ML was slightly underestimated.
--  **What should we change next time?**
--  For the meetings we can make our meetings more frequently
+  -  Time estimation for the video and main ML was slightly underestimated.
+  -  **What should we change next time?**
+  -  For the meetings we can make our meetings more frequently
 
 <details>
   <summary>📸 Screenshots & Files</summary>
