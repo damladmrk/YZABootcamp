@@ -126,7 +126,7 @@ The product is built to support new tests, models, and languages, allowing for f
 ### 🚀 Sprint 2
 
 #### 📝 Notes:
-- Landing page has been starting to initialize.  
+- [Landing Page](images/sprint2/websiteproto) has been starting to initialize.  
 - Classification data selected from [Harvard's public dataset](https://dataverse.harvard.edu/file.xhtml?fileId=7440350&version=1.1)
 - Data analysis and encoding is done using [Google Colab](https://colab.research.google.com/drive/1BTZX11qrY4josVxjID8QFkFvOXPcXtzf?usp=sharing)
 - Questions are decided respect to other clinical questionnaires(in terms of questions, length etc.)
@@ -165,7 +165,12 @@ The product is built to support new tests, models, and languages, allowing for f
   -  Time estimation for the video and main ML was slightly underestimated.
   -  **What should we change next time?**
   -  For the meetings we can make our meetings more frequently
-
+  -  
+#### 🔍 Review:
+- The team exceed point expectations.  
+- We compleated the sprint early so worked on tiny tasks.
+- Concluded that integration from ML to web will take time  
+- We had some communication issues about test results' first evaluation proccess(solved).
 <details>
   <summary>📸 Screenshots & Files</summary>
   
