@@ -12,8 +12,8 @@
 
   | Name              | Title           | Communication |
   |-------------------|------------------|---------|
-  | Damla Demirok  | Scrum Master   |         |
-  | Hamza Tulmaç | Developer     |         |
+  | Damla Demirok     | Scrum Master   |  [LinkedIn](https://www.linkedin.com/in/damla-demirok-00a918284/)      |
+  | Hamza Tulmaç      | Developer      | [LinkedIn](https://www.linkedin.com/in/hamza-tulmac-57548217b/)        |
 
 
 </details>
@@ -175,6 +175,45 @@ The product is built to support new tests, models, and languages, allowing for f
   <summary>📸 Screenshots & Files</summary>
   
 - [Project Plan and Points](images/sprint2/sprint2_projectplan.png)
+
+</details>
+
+</details>
+
+---
+
+### 🚀 Sprint 3
+
+#### 📝 Notes:
+- [Data](cognitia_dataset.csv) to train the model is finalized.
+- For [Main Model](BootcampMain.ipynb) XGBoost used and trained.
+
+
+#### 🎯 Total Points:
+- **Target:**  120
+- **Completed:**  
+- 
+
+#### 🔄 Daily Scrum:
+- Conducted daily with the messages and voice calls.
+
+ 
+
+#### 🔍 Retrospective:
+-  **What went well?**
+  - 
+-  **What didn’t go well?**
+  - Unexpeccted device problems caused a delay.
+-  **What can we improve?**
+  -  
+
+
+
+#### 🔍 Review:
+-
+<details>
+  <summary>📸 Screenshots & Files</summary>
+- 
 
 </details>
 
