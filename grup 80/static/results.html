@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Sonuçları - Psikolojik Test</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span class="brand-text">Psikolojik Test</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="static/index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    Ana Sayfa
+                </a>
+                <a href="static/developers.html" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    Geliştiriciler
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Results Container -->
+    <div class="results-container">
+        <!-- Results Header -->
+        <div class="results-header">
+            <div class="results-badge">
+                <i class="fas fa-certificate"></i>
+                Test Tamamlandı
+            </div>
+            <h1 class="results-title">Test Sonuçlarınız</h1>
+            <p class="results-subtitle">AI destekli analiz ile hazırlanmış kişisel raporunuz</p>
+            <div class="completion-time">
+                <i class="fas fa-clock"></i>
+                <span>Test süresi: 6dk 24sn</span>
+            </div>
+        </div>
+
+        <!-- Results Summary -->
+        <div class="results-summary modern-card">
+            <div class="summary-header">
+                <h2>Genel Değerlendirme</h2>
+                <div class="result-status positive">
+                    <i class="fas fa-check-circle"></i>
+                    <span>İyi Durum</span>
+                </div>
+            </div>
+            <div class="score-section">
+                <div class="score-display">
+                    <div class="score-circle">
+                        <div class="score-inner">
+                            <span class="score-number">75</span>
+                            <span class="score-symbol">%</span>
+                        </div>
+                        <svg class="score-ring" viewBox="0 0 120 120">
+                            <circle cx="60" cy="60" r="54" stroke="#e0e6ed" stroke-width="8" fill="none"/>
+                            <circle cx="60" cy="60" r="54" stroke="url(#gradient)" stroke-width="8" fill="none" 
+                                    stroke-dasharray="339.292" stroke-dashoffset="84.823" stroke-linecap="round"/>
+                            <defs>
+                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4facfe"/>
+                                    <stop offset="100%" style="stop-color:#00f2fe"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="score-interpretation">
+                    <h3>İyi Ruhsal Durum</h3>
+                    <p>Test sonuçlarınız, genel olarak iyi bir ruhsal durumda olduğunuzu göstermektedir. Bazı alanlarda iyileştirmeler yapabilirsiniz.</p>
+                    <div class="score-details">
+                        <div class="score-detail">
+                            <span class="detail-label">Toplam Puan:</span>
+                            <span class="detail-value">38/50</span>
+                        </div>
+                        <div class="score-detail">
+                            <span class="detail-label">Kategori:</span>
+                            <span class="detail-value">İyi Seviye</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Analysis Section -->
+        <div class="ai-analysis modern-card">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI Destekli Detaylı Analiz</h3>
+            </div>
+            <div class="analysis-content">
+                <div class="loading-animation" id="aiAnalysisLoading">
+                    <div class="loading-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>AI analizi hazırlanıyor...</p>
+                </div>
+                <div class="analysis-text" id="aiAnalysisText" style="display: none;">
+                    <p>Test sonuçlarınıza göre, genel ruhsal durumunuz iyi seviyede görünmektedir. Özellikle sosyal ilişkiler ve gelecek beklentileri konularında pozitif yaklaşımınız dikkat çekicidir. Ancak stres yönetimi ve uyku kalitesi konularında iyileştirmeler yapılabilir. Düzenli egzersiz ve meditasyon gibi aktiviteler bu alanlarda size fayda sağlayabilir.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Breakdown -->
+        <div class="category-breakdown modern-card">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Kategori Bazlı Analiz</h3>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon mood">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h4>Genel Ruh Hali</h4>
+                    </div>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 75%">
+                                <div class="score-glow"></div>
+                            </div>
+                        </div>
+                        <div class="score-info">
+                            <span class="score-percentage">75%</span>
+                            <span class="score-status good">İyi</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon sleep">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h4>Uyku Kalitesi</h4>
+                    </div>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 60%">
+                                <div class="score-glow"></div>
+                            </div>
+                        </div>
+                        <div class="score-info">
+                            <span class="score-percentage">60%</span>
+                            <span class="score-status moderate">Orta</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon stress">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Stres Düzeyi</h4>
+                    </div>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 45%">
+                                <div class="score-glow"></div>
+                            </div>
+                        </div>
+                        <div class="score-info">
+                            <span class="score-percentage">45%</span>
+                            <span class="score-status attention">Dikkat</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon social">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Sosyal Bağlantılar</h4>
+                    </div>
+                    <div class="category-score">
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 80%">
+                                <div class="score-glow"></div>
+                            </div>
+                        </div>
+                        <div class="score-info">
+                            <span class="score-percentage">80%</span>
+                            <span class="score-status excellent">Mükemmel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommendations -->
+        <div class="recommendations modern-card">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Kişiselleştirilmiş Öneriler</h3>
+            </div>
+            <div class="recommendations-grid">
+                <div class="recommendation-card priority-high">
+                    <div class="recommendation-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <div class="recommendation-content">
+                        <h4>Düzenli Egzersiz</h4>
+                        <p>Haftada en az 3 gün, 30 dakika egzersiz yapın</p>
+                        <div class="recommendation-priority">
+                            <span class="priority-badge high">Yüksek Öncelik</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recommendation-card priority-medium">
+                    <div class="recommendation-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="recommendation-content">
+                        <h4>Uyku Düzeni</h4>
+                        <p>Günde 7-9 saat kaliteli uyku alın</p>
+                        <div class="recommendation-priority">
+                            <span class="priority-badge medium">Orta Öncelik</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recommendation-card priority-medium">
+                    <div class="recommendation-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="recommendation-content">
+                        <h4>Meditasyon</h4>
+                        <p>Günlük 10-15 dakika nefes egzersizi yapın</p>
+                        <div class="recommendation-priority">
+                            <span class="priority-badge medium">Orta Öncelik</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recommendation-card priority-low">
+                    <div class="recommendation-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <div class="recommendation-content">
+                        <h4>Sosyal Aktiviteler</h4>
+                        <p>Mevcut sosyal bağlarınızı sürdürün</p>
+                        <div class="recommendation-priority">
+                            <span class="priority-badge low">Düşük Öncelik</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Help Notice -->
+        <div class="professional-notice modern-card">
+            <div class="notice-icon">
+                <i class="fas fa-user-md"></i>
+            </div>
+            <div class="notice-content">
+                <h4>Profesyonel Destek</h4>
+                <p>Bu test sonuçları sadece bilgilendirme amaçlıdır ve tıbbi tanı yerine geçmez. Ciddi ruhsal sağlık sorunları yaşıyorsanız, lütfen bir ruh sağlığı uzmanı ile görüşün.</p>
+                <div class="help-resources">
+                    <a href="#" class="help-link">
+                        <i class="fas fa-phone"></i>
+                        Acil Yardım: 182
+                    </a>
+                    <a href="#" class="help-link">
+                        <i class="fas fa-hospital"></i>
+                        Uzman Bul
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="results-actions">
+            <button class="btn btn-primary glow-effect" onclick="shareResults()">
+                <i class="fas fa-share-alt"></i>
+                Sonuçları Paylaş
+                <div class="btn-particles"></div>
+            </button>
+            <button class="btn btn-secondary glass-effect" onclick="restartTest()">
+                <i class="fas fa-redo"></i>
+                Testi Yeniden Başlat
+            </button>
+            <button class="btn btn-outline glass-effect" onclick="window.print()">
+                <i class="fas fa-print"></i>
+                Raporu Yazdır
+            </button>
+        </div>
+
+        <!-- Additional Resources -->
+        <div class="additional-resources modern-card">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-book-medical"></i>
+                </div>
+                <h3>Ek Kaynaklar</h3>
+            </div>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h4>Ruh Sağlığı Rehberi</h4>
+                        <p>Ruh sağlığı hakkında kapsamlı bilgiler ve pratik öneriler</p>
+                        <a href="#" class="resource-link">
+                            <span>Rehberi İncele</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h4>Acil Yardım Hatları</h4>
+                        <p>7/24 destek alabileceğiniz profesyonel yardım hatları</p>
+                        <a href="#" class="resource-link">
+                            <span>Hatları Gör</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h4>Uzman Bulma</h4>
+                        <p>Yakınınızdaki ruh sağlığı uzmanlarını bulun</p>
+                        <a href="#" class="resource-link">
+                            <span>Uzman Bul</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test Summary -->
+        <div class="test-summary modern-card">
+            <div class="summary-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">23 Temmuz 2025</div>
+                        <div class="stat-label">Test Tarihi</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">6dk 24sn</div>
+                        <div class="stat-label">Test Süresi</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">10/10</div>
+                        <div class="stat-label">Cevaplanan Soru</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">AI Destekli</div>
+                        <div class="stat-label">Analiz Türü</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

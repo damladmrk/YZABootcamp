@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikolojik Test - Teste Başla</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span class="brand-text">Psikolojik Test</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="static/index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    Ana Sayfa
+                </a>
+                <a href="static/developers.html" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    Geliştiriciler
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Test Container -->
+    <div class="test-container">
+        <!-- Test Header -->
+        <div class="test-header">
+            <div class="test-info">
+                <h1>Psikolojik Değerlendirme Testi</h1>
+                <p>Lütfen her soruyu dikkatlice okuyun ve size en uygun seçeneği işaretleyin</p>
+            </div>
+            <div class="test-timer">
+                <i class="fas fa-clock"></i>
+                <span id="timer">00:00</span>
+            </div>
+        </div>
+
+        <!-- Progress Section -->
+        <div class="progress-section">
+            <div class="progress-info">
+                <span class="progress-text">İlerleme</span>
+                <span class="progress-percentage">0%</span>
+            </div>
+            <div class="test-progress">
+                <div class="test-progress-bar" style="width: 0%">
+                    <div class="progress-glow"></div>
+                </div>
+            </div>
+            <div class="progress-steps">
+                <div class="step active">1</div>
+                <div class="step">2</div>
+                <div class="step">3</div>
+                <div class="step">4</div>
+                <div class="step">5</div>
+                <div class="step">6</div>
+                <div class="step">7</div>
+                <div class="step">8</div>
+                <div class="step">9</div>
+                <div class="step">10</div>
+            </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-card modern-card">
+            <div class="question-header">
+                <div class="question-category">
+                    <i class="fas fa-brain"></i>
+                    <span>Ruh Hali</span>
+                </div>
+                <div class="question-title">Soru 1</div>
+            </div>
+            <div class="question-text">Test sorusu burada görünecek...</div>
+            <div class="answer-options">
+                <!-- Options will be populated by JavaScript -->
+            </div>
+            <div class="question-help">
+                <i class="fas fa-info-circle"></i>
+                <span>En doğru hissettiğiniz seçeneği işaretleyin</span>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="test-navigation">
+            <button class="btn btn-secondary glass-effect btn-prev" onclick="previousQuestion()" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                Önceki Soru
+            </button>
+            
+            <div class="question-counter">
+                <span class="current-question">1</span>
+                <span class="separator">/</span>
+                <span class="total-questions">10</span>
+            </div>
+            
+            <button class="btn btn-primary glow-effect btn-next" onclick="nextQuestion()" disabled>
+                Sonraki Soru
+                <i class="fas fa-arrow-right"></i>
+                <div class="btn-particles"></div>
+            </button>
+        </div>
+
+        <!-- Test Tips -->
+        <div class="test-tips">
+            <div class="tip-card">
+                <i class="fas fa-lightbulb"></i>
+                <p>Dürüst ve samimi yanıtlar vererek en doğru sonuçları alabilirsiniz</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Instructions Modal -->
+    <div class="modal glass-modal" id="instructionsModal" style="display: none;">
+        <div class="modal-content modern-card">
+            <div class="modal-header">
+                <h2><i class="fas fa-info-circle"></i> Test Talimatları</h2>
+            </div>
+            <div class="modal-body">
+                <div class="instruction-list">
+                    <div class="instruction-item">
+                        <div class="instruction-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="instruction-text">
+                            <h4>Dikkatli Okuyun</h4>
+                            <p>Her soruyu dikkatlice okuyun ve anlayın</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="instruction-text">
+                            <h4>Uygun Seçeneği İşaretleyin</h4>
+                            <p>Size en uygun seçeneği işaretleyin</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="instruction-text">
+                            <h4>Dürüst Olun</h4>
+                            <p>Dürüst ve samimi yanıtlar verin</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="instruction-text">
+                            <h4>Süre</h4>
+                            <p>Test yaklaşık 5-7 dakika sürer</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-icon">
+                            <i class="fas fa-list-check"></i>
+                        </div>
+                        <div class="instruction-text">
+                            <h4>Tüm Sorular</h4>
+                            <p>Tüm sorular cevaplanmalıdır</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-buttons">
+                <button class="btn btn-primary glow-effect" onclick="closeModal()">
+                    <i class="fas fa-play"></i>
+                    Anladım, Başla
+                    <div class="btn-particles"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen" style="display: none;">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <h3>Test Sonuçlarınız Analiz Ediliyor</h3>
+            <p>AI destekli analiz sistemi çalışıyor...</p>
+            <div class="loading-steps">
+                <div class="loading-step active">
+                    <i class="fas fa-brain"></i>
+                    <span>Cevaplar İşleniyor</span>
+                </div>
+                <div class="loading-step">
+                    <i class="fas fa-chart-line"></i>
+                    <span>AI Analizi</span>
+                </div>
+                <div class="loading-step">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Rapor Hazırlanıyor</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
