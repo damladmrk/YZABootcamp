@@ -187,6 +187,7 @@ The product is built to support new tests, models, and languages, allowing for f
 #### 📝 Notes:
 - [Data](cognitia_dataset.csv) to train the model is finalized.
 - For [Main Model](BootcampMain.ipynb) XGBoost used and trained.
+- [Test Cases](images/sprint3/CognitiaTestCases.pdf) for professionals and cliends are created.
 
 
 #### 🎯 Total Points:
@@ -203,7 +204,7 @@ The product is built to support new tests, models, and languages, allowing for f
 -  **What went well?**
   - 
 -  **What didn’t go well?**
-  - Unexpeccted device problems caused a delay.
+  - Unexpected device problems caused a delay.
 -  **What can we improve?**
   -  
 
