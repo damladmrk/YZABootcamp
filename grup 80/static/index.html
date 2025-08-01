@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikolojik Test - Ruhsal Durumunu Analiz Et</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="/static/assets/logo.png" alt="Psikolojik Test Logo" class="logo">
+                <a href="/static/index.html" class="brand-text">Psikolojik Test</a>
+            </div>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">Teste Başla</a>
+                <a href="/static/developers.html" class="nav-link">Geliştiriciler</a>
+                <a href="#features" class="nav-link">Hakkında</a>
+                <a href="/static/how-it-works.html" class="nav-link">Nasıl Çalışır</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="brain-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h1 class="hero-title">
+                    Ruhsal <span class="highlight-blue">Durumunu</span><br>
+                    <span class="highlight-purple">Analiz Et</span>
+                </h1>
+                <p class="hero-description">
+                    Bilimsel olarak doğrulanmış testlerle ruhsal durumunu değerlendir. AI 
+                    destekli analiz ile kişiselleştirilmiş öneriler al.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="startTest()">
+                        <i class="fas fa-play"></i>
+                        Teste Başla
+                    </button>
+                    <button class="btn btn-secondary" onclick="showInfo()">
+                        <i class="fas fa-info-circle"></i>
+                        Nasıl Çalışır?
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Analysis Section -->
+    <section class="ai-analysis-section" id="about">
+        <div class="container">
+            <div class="ai-content">
+                <div class="ai-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h2 class="section-title">AI Destekli Ruhsal Durum Analizi</h2>
+                <p class="section-description">
+                    Gelişmiş yapay zeka teknolojisi ile test sonuçlarınız detaylı olarak analiz edilir. 
+                    Kişiselleştirilmiş öneriler ve profesyonel yönlendirmeler alın.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Detaylı Analiz</h3>
+                        <p>Test sonuçlarınız bilimsel kriterlerle değerlendirilir</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Kişisel Öneriler</h3>
+                        <p>Size özel iyileştirme önerileri ve egzersizler</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Uzman Yönlendirme</h3>
+                        <p>Gerekli durumlarda profesyonel destek önerileri</p>
+                    </div>
+                </div>
+                <button class="btn btn-outline" onclick="startTest()">
+                    <i class="fas fa-rocket"></i>
+                    Hemen Başla
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Neden Bu Testi Seçmelisiniz?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Bilimsel Temel</h3>
+                    <p>Klinik olarak doğrulanmış test ölçekleri kullanılır</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Güvenli & Anonim</h3>
+                    <p>Verileriniz güvenle korunur, tamamen anonim</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Hızlı Sonuç</h3>
+                    <p>Anında AI destekli analiz ve raporlama</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Ücretsiz</h3>
+                    <p>Tüm testler ve analiz sonuçları ücretsiz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="/static/assets/logo.png" alt="Psikolojik Test Logo" class="footer-logo">
+                        <span class="footer-brand-text">Psikolojik Test</span>
+                    </div>
+                    <p class="footer-description">
+                        AI destekli psikolojik değerlendirme platformu. Ruhsal 
+                        sağlığınızı anlamada yardımcı oluyoruz.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hızlı Linkler</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Psikolojik Test</a></li>
+                        <li><a href="/static/developers.html">Geliştiriciler</a></li>
+                        <li><a href="#features">Nasıl Çalışır</a></li>
+                        <li><a href="#about">Gizlilik</a></li>
+                        <li><a href="#contact">Yardım</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Önemli Bilgiler</h3>
+                    <ul class="footer-info">
+                        <li><i class="fas fa-shield-alt"></i> Tıbbi tanı yerine geçmez</li>
+                        <li><i class="fas fa-user-check"></i> Sadece tarama amaçlıdır</li>
+                        <li><i class="fas fa-user-md"></i> Uzman görüşü önerilir</li>
+                        <li><i class="fas fa-lock"></i> Verileriniz güvenli</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Psikolojik Test. Tüm hakları saklıdır.</p>
+                <p>Bu platform kişisel bir proje olup, sadece kişisel amaçlar için tasarlanmıştır. Ciddi durumlarda mutlaka uzman desteği alın.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
