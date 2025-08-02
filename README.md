@@ -188,12 +188,14 @@ The product is built to support new tests, models, and languages, allowing for f
 - [Data](cognitia_dataset.csv) to train the model is finalized.
 - For [Main Model](BootcampMain.ipynb) XGBoost used and trained.
 - [Test Cases](images/sprint3/CognitiaTestCases.pdf) for professionals and cliends are created.
+- Main model uploaded to the website.
+- [Project Video](https://youtu.be/Pn_eKAuOYPM) is prepared.
 
 
 #### 🎯 Total Points:
 - **Target:**  120
-- **Completed:**  
-- 
+- **Completed:**  105
+- We faced challenges integrating the model and code into the website due to unexperiencedness.
 
 #### 🔄 Daily Scrum:
 - Conducted daily with the messages and voice calls.
@@ -202,19 +204,27 @@ The product is built to support new tests, models, and languages, allowing for f
 
 #### 🔍 Retrospective:
 -  **What went well?**
-  - 
+  - We successfully developed both the ML model and the website interface.
 -  **What didn’t go well?**
   - Unexpected device problems caused a delay.
+  - Connection between ML model and website lacked.
 -  **What can we improve?**
-  -  
+  -  Start integration between frontend and backend earlier.
+  -  Plan more buffer time for potential technical issues.
+  -  Improve testing and deployment practices.
 
 
 
 #### 🔍 Review:
--
+- We designed a psychological decision-support ML model predicting diagnosis probabilities.
+- Although we faced integration difficulties, the final model reflected the core functionality and design goals.
+- The project helped us understand teamwork, agile planning, and the importance of early testing.
+
+  
 <details>
   <summary>📸 Screenshots & Files</summary>
-- 
+  
+- [Project Plan and Points](images/sprint3/sprint3_projectplan.png)
 
 </details>
 
